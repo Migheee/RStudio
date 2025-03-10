@@ -1,0 +1,23 @@
+---
+title: "MD1"
+output: html_document
+author: "Michele Castenedoli"
+date: "2025-03-10"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown: Altezze
+
+Il seguente programma calcola le altezze
+
+```{r}
+altezze =c(180,185,160,NA,150,200) 
+mean(altezze, na.rm=TRUE)
+```
+
+```{r}
+hist(altezze)
+```
